@@ -20,7 +20,6 @@ const SignInForm = ({ setSignedIn }) => {
             setSignedIn(true);
             navigate('/');
         } else {
-            // console.log("Sign In: ");
             alert('Sign in failed');
         }
     };
